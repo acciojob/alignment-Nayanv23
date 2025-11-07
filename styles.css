@@ -10,15 +10,15 @@ table.middle {
   width: 90%;
   margin: 0 auto;                     /* center the table on page */
   border-collapse: separate;
-  border: 1px solid #444;
-  font-family: system-ui, Arial, sans-serif;
+    border-spacing: 1px;
+    border: 1px solid black;  font-family: system-ui, Arial, sans-serif;
   font-size: 14px;
 }
 
 /* Cell borders and spacing */
 table.middle td {
-  border: 1px solid #666;
-  padding: 6px 10px;
+    border: 1px solid black;  
+    padding: 1px;
 }
 
 /* Alignment utility classes for cells/rows */
@@ -32,10 +32,10 @@ table.middle tr:nth-child(odd)  td { background: #fff; }
 
 
 /* Background colors for rows */
-.green {
-	  background-color: green;
-	}
-
-.blue {
-	  background-color: blue;
-	}
+/* Background colors for rows */
+.green td {
+    background-color: green !important;
+}
+.blue td {
+    background-color: blue !important;
+}
