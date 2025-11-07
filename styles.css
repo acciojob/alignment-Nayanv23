@@ -29,3 +29,13 @@ table.middle td {
 /* Optional subtle aesthetics */
 table.middle tr:nth-child(even) td { background: #f7f7f7; }
 table.middle tr:nth-child(odd)  td { background: #fff; }
+
+
+/* Background colors for rows */
+.green {
+	  background-color: green;
+	}
+
+.blue {
+	  background-color: blue;
+	}
